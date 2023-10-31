@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site de Casamento</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seu Casamento</h1>
+        <div class="links">
+            <a class="link" href="#">Confirmar Presença</a>
+            <a class="link" href="#">Lista de Presentes</a>
+            <a class="link" href="#" onclick="showPix()">Pix</a>
+            <div class="pix-link" id="pix-link">
+                <p>Escaneie o QR Code abaixo ou copie a chave Pix:</p>
+                <img src="seu_qrcode_pix.png" alt="QR Code Pix">
+                <button class="copy-button" onclick="copyPixKey()">Copiar Chave Pix</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
