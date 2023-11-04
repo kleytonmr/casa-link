@@ -1,6 +1,7 @@
-function showPix() {
-    var pixLink = document.getElementById("pix-link");
-    pixLink.style.display = "block";
+function scrollToPixSection() {
+    var pixSection = document.getElementById("pix-link");
+    pixSection.style.display = "block"; // Exibe a seção Pix
+    pixSection.scrollIntoView({ behavior: "smooth" });
 }
 
 function copyPixKey() {

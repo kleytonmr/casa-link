@@ -13,13 +13,13 @@
         <img src="casal.jpg" alt="Casal Feliz" class="img-fluid" id="casal-image">
         <div class="links">
             <a class="btn btn-info btn-block mb-3" href="https://noivos.casar.com/kleyton-e-layra#/presentes">Lista de Presentes</a>
-            <a class="btn btn-success btn-block" href="#" onclick="showPix()">Pix</a>
-            <div class="pix-link" id="pix-link" style="display: none;">
-                <p>Escaneie o QR Code abaixo ou copie a chave Pix:</p>
-                <img src="qrcode-pix.png" alt="QR Code Pix" class="img-fluid" id="pix-image">
-                <button class="btn btn-success btn-block" onclick="copyPixKey()">Copiar Chave Pix</button>
-            </div>
+            <a class="btn btn-success btn-block" href="#" onclick="scrollToPixSection()">Pix</a>
         </div>
+    </div>
+    <div class="container text-center mt-5" id="pix-link" style="display: none;">
+        <p>Escaneie o QR Code abaixo ou copie a chave Pix:</p>
+        <img src="qrcode-pix.png" alt="QR Code Pix" class="img-fluid" id="pix-image">
+        <button class="btn btn-success btn-block" onclick="copyPixKey()">Copiar Chave Pix</button>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
