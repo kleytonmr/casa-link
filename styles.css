@@ -37,8 +37,14 @@ body {
     border-color: #c9c3bd;
 }
 
+.btn-primary:hover, .btn-info:hover {
+    background-color: #c9c3bd;
+    border-color: #c9c3bd;
+}
+
 .btn-success {
-    color: #e4dddc;
+    color: #fff;
     background-color: #28a745fc;
     border-color: #28a745;
+    margin-top: 2%;
 }
