@@ -6,7 +6,7 @@ function scrollToPixSection() {
 
 function copyPixKey() {
     var textArea = document.createElement("textarea");
-    textArea.value = "68856535-1717-4a9c-8fa6-d3bcbafc6a7a";
+    textArea.value = "00020126360014BR.GOV.BCB.PIX0114+55279962140975204000053039865802BR5919KLEYTON MATOS RAMOS6005Serra62110507Casorio6304346A";
     document.body.appendChild(textArea);
     textArea.select();
     document.execCommand("copy");
