@@ -6,12 +6,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff; /* Defina a cor do texto para melhor contraste */
+    color: #fff;
     background-attachment: fixed;
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo do conteúdo com transparência */
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -27,7 +27,7 @@ body {
 }
 
 #pix-image {
-    max-width: 100%;
+    min-width: 100%;
     border-radius: 10px;
 }
 
